@@ -100,8 +100,7 @@ def TobRegScraper(Name, Postcode, LA, BT, PS, S):
     
     searchurl = searchurl + "&PremisesStatus=" + S + "&page=all" 
     
-    
-    
+
     page = requests.get(searchurl)
     soup = BeautifulSoup(page.content, 'html.parser')
     info = soup.find_all("dl")
