@@ -41,6 +41,7 @@ localauthorities = {'1': 'Aberdeen City',
  '29': 'South Lanarkshire',
  '30': 'Stirling',
  '31': 'West Dunbartonshire',
+ '32': 'West Lothian',
  '': ''}
 
 

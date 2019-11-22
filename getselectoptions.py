@@ -30,7 +30,7 @@ valueDF.rename(columns={valueDF.columns[0]: "Key" }, inplace = True)
 
 # create the dictionaries
 
-localauthorities = pd.Series(valueDF[0:31].value.values,index=valueDF[0:31].Key).to_dict()
+localauthorities = pd.Series(valueDF[0:32].value.values,index=valueDF[0:32].Key).to_dict()
 localauthorities[""] = ""
 
 businesstype = pd.Series(valueDF[32:49].value.values,index=valueDF[32:49].Key).to_dict()
