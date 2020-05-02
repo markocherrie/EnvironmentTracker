@@ -7,7 +7,7 @@ Created on Fri Nov 22 16:54:54 2019
 from datetime import date
 import GetData
 
-df=GetData.TobRegScraper(Name="40 victoria roads",Postcode="AB11 9DR",LA="1",BT="Newsagents",PS="TobaccoOnly",S="Inactive")
+df=GetData.TobRegScraper('','','','','','')
 today = date.today()
 todayformatted = today.strftime("%Y-%m-%d")
 repo = 'data/STRR_'

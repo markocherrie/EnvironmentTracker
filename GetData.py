@@ -136,7 +136,5 @@ def TobRegScraper(Name, Postcode, LA, BT, PS, S):
     # output the final tobacco retailer dataset
     return(tob_info_output)
     
-def GenNewRet():
-    datetime.strftime(datetime.now() - timedelta(1), '%Y-%m-%d')
    
     
